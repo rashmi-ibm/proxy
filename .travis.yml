@@ -2,7 +2,8 @@ sudo: required
 
 dist: trusty
 
-os: linux-ppc64le
+os: linux
+arch: ppc64le
 
 addons:
   apt:
