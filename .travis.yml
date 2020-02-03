@@ -2,6 +2,9 @@ sudo: required
 
 dist: trusty
 
+os:
+  - linux-ppc64le
+
 addons:
   apt:
     sources:
@@ -19,7 +22,7 @@ branches:
 language: cpp
 
 jdk:
-  - oraclejdk8
+  - openjdk8
 
 env:
   - BAZEL_VERSION=0.4.5
